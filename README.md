@@ -20,7 +20,11 @@ Ubuntu Server → API Gateway → Ingress → Parser → Engine → Notify → E
 
 ## Screenshots
 
+The CloudWatch dashboard shows total events processed, alerts sent, system errors, and average Lambda response time. The table on the right logs the top failing source IPs in real time.
+
 ![CloudWatch Dashboard](images/cloudwatch-1.png)
+
+A simulated attack from IP 192.168.223.183 with 5 failed login attempts triggered a HIGH severity alert. The email arrived 28 seconds after the first attempt was detected.
 
 ![Alert Email](images/soar-alert.png)
 
