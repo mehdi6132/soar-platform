@@ -10,6 +10,12 @@ Severity is calculated automatically based on attempt frequency: 3 attempts trig
 
 All Lambda functions run in private VPC subnets with no direct internet access. Infrastructure is deployed in 15 minutes via Terraform and GitHub Actions CI/CD.
 
+## Screenshots
+
+![CloudWatch Dashboard](images/cloudwatch-1.png)
+
+![Alert Email](images/soar-alert.png)
+
 ## Tech stack
 
 | Component | Technology |
